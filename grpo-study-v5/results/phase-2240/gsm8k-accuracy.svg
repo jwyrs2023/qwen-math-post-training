@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="system-ui,sans-serif" font-size="13" fill="#223140">
+<text x="75" y="28" font-size="20" font-weight="bold">GSM8K accuracy by training step</text>
+<text x="75" y="49" >Accuracy (%)</text>
+<path d="M75 323.0H865" stroke="#e2e9f0"/>
+<text x="67" y="327.0" text-anchor="end">73.5</text>
+<path d="M75 269.6H865" stroke="#e2e9f0"/>
+<text x="67" y="273.6" text-anchor="end">75.25</text>
+<path d="M75 216.2H865" stroke="#e2e9f0"/>
+<text x="67" y="220.2" text-anchor="end">77</text>
+<path d="M75 162.8H865" stroke="#e2e9f0"/>
+<text x="67" y="166.8" text-anchor="end">78.75</text>
+<path d="M75 109.4H865" stroke="#e2e9f0"/>
+<text x="67" y="113.4" text-anchor="end">80.5</text>
+<path d="M75 56.0H865" stroke="#e2e9f0"/>
+<text x="67" y="60.0" text-anchor="end">82.25</text>
+<path d="M75 295.53714285714267H865" stroke="#8997a4" stroke-dasharray="4 4"/>
+<text x="75.0" y="342" text-anchor="middle">0</text>
+<text x="131.42857142857144" y="342" text-anchor="middle">160</text>
+<text x="187.85714285714286" y="342" text-anchor="middle">320</text>
+<text x="244.28571428571428" y="342" text-anchor="middle">480</text>
+<text x="300.7142857142857" y="342" text-anchor="middle">640</text>
+<text x="413.57142857142856" y="342" text-anchor="middle">960</text>
+<text x="526.4285714285714" y="342" text-anchor="middle">1280</text>
+<text x="639.2857142857143" y="342" text-anchor="middle">1600</text>
+<text x="752.1428571428571" y="342" text-anchor="middle">1920</text>
+<text x="865.0" y="342" text-anchor="middle">2240</text>
+<text x="470.0" y="363" text-anchor="middle">Optimizer updates</text>
+<polyline points="75.0,295.5 103.2,271.1 131.4,265.0 159.6,265.0 187.9,240.6 244.3,222.3 300.7,197.9 413.6,197.9 526.4,167.4 639.3,124.7 752.1,88.0 865.0,57.5" fill="none" stroke="#477fa9" stroke-width="2"/>
+<circle cx="75.0" cy="295.5" r="3" fill="#477fa9"/>
+<circle cx="103.2" cy="271.1" r="3" fill="#477fa9"/>
+<circle cx="131.4" cy="265.0" r="3" fill="#477fa9"/>
+<circle cx="159.6" cy="265.0" r="3" fill="#477fa9"/>
+<circle cx="187.9" cy="240.6" r="3" fill="#477fa9"/>
+<circle cx="244.3" cy="222.3" r="3" fill="#477fa9"/>
+<circle cx="300.7" cy="197.9" r="3" fill="#477fa9"/>
+<circle cx="413.6" cy="197.9" r="3" fill="#477fa9"/>
+<circle cx="526.4" cy="167.4" r="3" fill="#477fa9"/>
+<circle cx="639.3" cy="124.7" r="3" fill="#477fa9"/>
+<circle cx="752.1" cy="88.0" r="3" fill="#477fa9"/>
+<circle cx="865.0" cy="57.5" r="3" fill="#477fa9"/>
+<text x="75" y="397" fill="#477fa9">Seed 42</text>
+<polyline points="75.0,295.5 103.2,277.2 131.4,283.3 159.6,265.0 187.9,210.1 244.3,228.4 300.7,197.9 413.6,130.8 526.4,112.5 639.3,94.1 752.1,88.0 865.0,57.5" fill="none" stroke="#9164a3" stroke-width="2"/>
+<circle cx="75.0" cy="295.5" r="3" fill="#9164a3"/>
+<circle cx="103.2" cy="277.2" r="3" fill="#9164a3"/>
+<circle cx="131.4" cy="283.3" r="3" fill="#9164a3"/>
+<circle cx="159.6" cy="265.0" r="3" fill="#9164a3"/>
+<circle cx="187.9" cy="210.1" r="3" fill="#9164a3"/>
+<circle cx="244.3" cy="228.4" r="3" fill="#9164a3"/>
+<circle cx="300.7" cy="197.9" r="3" fill="#9164a3"/>
+<circle cx="413.6" cy="130.8" r="3" fill="#9164a3"/>
+<circle cx="526.4" cy="112.5" r="3" fill="#9164a3"/>
+<circle cx="639.3" cy="94.1" r="3" fill="#9164a3"/>
+<circle cx="752.1" cy="88.0" r="3" fill="#9164a3"/>
+<circle cx="865.0" cy="57.5" r="3" fill="#9164a3"/>
+<text x="230" y="397" fill="#9164a3">Seed 43</text>
+<polyline points="75.0,295.5 103.2,295.5 131.4,265.0 159.6,283.3 187.9,258.9 244.3,222.3 300.7,197.9 413.6,155.2 526.4,161.3 639.3,124.7 752.1,94.1 865.0,88.0" fill="none" stroke="#29846b" stroke-width="2"/>
+<circle cx="75.0" cy="295.5" r="3" fill="#29846b"/>
+<circle cx="103.2" cy="295.5" r="3" fill="#29846b"/>
+<circle cx="131.4" cy="265.0" r="3" fill="#29846b"/>
+<circle cx="159.6" cy="283.3" r="3" fill="#29846b"/>
+<circle cx="187.9" cy="258.9" r="3" fill="#29846b"/>
+<circle cx="244.3" cy="222.3" r="3" fill="#29846b"/>
+<circle cx="300.7" cy="197.9" r="3" fill="#29846b"/>
+<circle cx="413.6" cy="155.2" r="3" fill="#29846b"/>
+<circle cx="526.4" cy="161.3" r="3" fill="#29846b"/>
+<circle cx="639.3" cy="124.7" r="3" fill="#29846b"/>
+<circle cx="752.1" cy="94.1" r="3" fill="#29846b"/>
+<circle cx="865.0" cy="88.0" r="3" fill="#29846b"/>
+<text x="385" y="397" fill="#29846b">Seed 44</text>
+<polyline points="75.0,295.5 103.2,281.3 131.4,271.1 159.6,271.1 187.9,236.5 244.3,224.3 300.7,197.9 413.6,161.3 526.4,147.0 639.3,114.5 752.1,90.1 865.0,67.7" fill="none" stroke="#202a36" stroke-width="2"/>
+<circle cx="75.0" cy="295.5" r="3" fill="#202a36"/>
+<circle cx="103.2" cy="281.3" r="3" fill="#202a36"/>
+<circle cx="131.4" cy="271.1" r="3" fill="#202a36"/>
+<circle cx="159.6" cy="271.1" r="3" fill="#202a36"/>
+<circle cx="187.9" cy="236.5" r="3" fill="#202a36"/>
+<circle cx="244.3" cy="224.3" r="3" fill="#202a36"/>
+<circle cx="300.7" cy="197.9" r="3" fill="#202a36"/>
+<circle cx="413.6" cy="161.3" r="3" fill="#202a36"/>
+<circle cx="526.4" cy="147.0" r="3" fill="#202a36"/>
+<circle cx="639.3" cy="114.5" r="3" fill="#202a36"/>
+<circle cx="752.1" cy="90.1" r="3" fill="#202a36"/>
+<circle cx="865.0" cy="67.7" r="3" fill="#202a36"/>
+<text x="540" y="397" fill="#202a36">Three-seed mean</text>
+</g></svg>

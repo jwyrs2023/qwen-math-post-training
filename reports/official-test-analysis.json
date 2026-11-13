@@ -1,0 +1,101 @@
+{
+  "results": {
+    "base": {
+      "count": 1319,
+      "accuracy": 0.2221379833206975,
+      "format_rate": 0.1106899166034875,
+      "parse_rate": 0.33434420015163,
+      "joint_rate": 0.06595905989385899,
+      "truncated_count": 13
+    },
+    "sft": {
+      "count": 1319,
+      "accuracy": 0.6110689916603488,
+      "format_rate": 0.9946929492039424,
+      "parse_rate": 0.9946929492039424,
+      "joint_rate": 0.6110689916603488,
+      "truncated_count": 5
+    },
+    "a": {
+      "count": 1319,
+      "accuracy": 0.6171341925701289,
+      "format_rate": 0.9924184988627748,
+      "parse_rate": 0.9924184988627748,
+      "joint_rate": 0.6171341925701289,
+      "truncated_count": 7
+    },
+    "b": {
+      "count": 1319,
+      "accuracy": 0.6163760424564063,
+      "format_rate": 0.9924184988627748,
+      "parse_rate": 0.9924184988627748,
+      "joint_rate": 0.6163760424564063,
+      "truncated_count": 8
+    }
+  },
+  "comparisons": {
+    "base\u2192sft": {
+      "gained": 573,
+      "lost": 60,
+      "delta_pp": 38.89310083396513,
+      "ci95_pp": [
+        35.78468536770281,
+        41.925701288855194
+      ]
+    },
+    "sft\u2192a": {
+      "gained": 17,
+      "lost": 9,
+      "delta_pp": 0.6065200909780136,
+      "ci95_pp": [
+        -0.1516300227445034,
+        1.3646702047005308
+      ]
+    },
+    "sft\u2192b": {
+      "gained": 19,
+      "lost": 12,
+      "delta_pp": 0.530705079605762,
+      "ci95_pp": [
+        -0.3032600454890068,
+        1.3646702047005308
+      ]
+    },
+    "a\u2192b": {
+      "gained": 8,
+      "lost": 9,
+      "delta_pp": -0.0758150113722517,
+      "ci95_pp": [
+        -0.6823351023502654,
+        0.530705079605762
+      ]
+    }
+  },
+  "training": {
+    "a": {
+      "groups": 800,
+      "zero_variance": 414,
+      "format_mixed_groups": 23,
+      "completions": 3200,
+      "format_pass": 3175,
+      "generated_tokens": 405239
+    },
+    "b": {
+      "groups": 800,
+      "zero_variance": 378,
+      "format_mixed_groups": 31,
+      "completions": 3200,
+      "format_pass": 3166,
+      "generated_tokens": 406579
+    }
+  },
+  "archive_sha256": {
+    "official-test-backup.tar.gz": "c5f1e114ea5a904ea4f5b647a343e21d17766d2081f971441a445096ecbd4e37",
+    "formal-pair-backup.tar.gz": "1392f3f393a930905d518c3291e7187dd8425119914b12800cf9bc965524d71f"
+  },
+  "bootstrap": {
+    "seed": 42,
+    "replicates": 50000,
+    "method": "paired question-level percentile"
+  }
+}

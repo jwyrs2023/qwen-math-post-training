@@ -1,0 +1,10 @@
+{
+  "uniform": {
+    "adapter": "runs/v3_uniform_formal_s43/final",
+    "sft": "runs/sft_frozen"
+  },
+  "mixture": {
+    "adapter": "runs/v3_mixture_formal_s43/final",
+    "sft": "runs/sft_frozen"
+  }
+}

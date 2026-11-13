@@ -1,0 +1,14 @@
+{
+  "continue_sft": {
+    "adapter": "runs/v2_continue_sft_formal_s43/final",
+    "sft": "runs/sft_frozen"
+  },
+  "grpo_acc": {
+    "adapter": "runs/v2_grpo_acc_formal_s43/final",
+    "sft": "runs/sft_frozen"
+  },
+  "grpo_accfmt": {
+    "adapter": "runs/v2_grpo_accfmt_formal_s43/final",
+    "sft": "runs/sft_frozen"
+  }
+}
